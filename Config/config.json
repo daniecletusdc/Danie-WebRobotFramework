@@ -1,0 +1,10 @@
+{
+  "Browser": {
+    "Chrome": "storage:filename=33.0 (s_T2_phase2_native_basket_13).aab",
+    "Firefox": "storage:filename=27.0 (s_T1_June_Reg_1) (62314728).apk"
+  },
+   "URL": {
+    "test1": "https://www.demoblaze.com/index.html",
+    "test2": "https://www.demoblaze.com/"
+  }
+}

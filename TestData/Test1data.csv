@@ -1,0 +1,7 @@
+Test Case,Parameter
+Open demo application and verify login page displayed
+validate error message displayed when the user enter wrong credentials,${Username}:sam,${Password}:pwd
+validate the user loggedIn with valid credentials,${Username}:sam@lol.com,${Password}:test1234
+the user verify the product displayed in home screen,${Username}:sam@lol.com,${Password}:test1234,${ProductName}:Nexus 6
+the user verifies that product page is displayed,${Username}:sam@lol.com,${Password}:test1234,${ProductName}:Nexus 6
+the user verifies that user is able to add the product to cart,${Username}:standard_user,${Password}:secret_sauce,${ProductName1}:Nexus 6,${ProductName2}:Nokia lumia 1520
