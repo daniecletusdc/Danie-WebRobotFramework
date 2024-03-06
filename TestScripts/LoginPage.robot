@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    This is a sample automation test cases
+Documentation    This is a sample automation test case in robot framework
 Library    SeleniumLibrary
 Resource    ../Resource/LoginPage.resource
 Resource    ../Resource/Generic.resource

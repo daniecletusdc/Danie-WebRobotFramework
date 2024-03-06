@@ -14,6 +14,8 @@ the user open website
     Maximize Browser Window
 
 Read CSV file
+    ${env} =     Get Environment Variable    test_environment
+    Log To Console    ${env}
     ${csvFile}    Get File    ${testDataFile}
     @{read}    Create List   ${csvFile}
     @{lines}    Split To Lines     @{read}

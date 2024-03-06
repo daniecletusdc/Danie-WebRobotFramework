@@ -2,6 +2,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    String
+Library    ../CustomLibrary/Home.py
 *** Variables ***
 ${btnLogin}    id:login2
 ${txtUserName}        id:loginusername
